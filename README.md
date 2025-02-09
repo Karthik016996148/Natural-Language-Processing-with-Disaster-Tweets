@@ -16,3 +16,18 @@ This project utilizes advanced NLP techniques to classify tweets as disaster-rel
 - **NLTK, spaCy**: For text preprocessing
 - **Pandas, NumPy**: For data manipulation
 - **Matplotlib, Seaborn**: For data visualization
+
+## Data
+The data used in this project comes from a Kaggle competition and includes:
+- `train.csv`: Labeled tweet data for training
+- `test.csv`: Unlabeled tweet data for model testing
+- **Data Columns**: id, keyword, location, text, target
+
+## Models
+1. **LSTM**: Long Short-Term Memory networks for baseline models.
+2. **BERT**: Bidirectional Encoder Representations from Transformers for context understanding.
+3. **Advanced BERT**: Optimized BERT with better hyperparameter tuning.
+4. **RoBERTa**: Robustly Optimized BERT Approach with enhanced pre-training.
+
+## Evaluation
+Models are evaluated based on accuracy, precision, recall, and F1-score to ensure robustness in real-world application.
